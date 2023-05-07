@@ -1,0 +1,133 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Samsung"
+    },
+    {
+      "id": 2,
+      "title": "Nokia"
+    },
+    {
+      "id": 3,
+      "title": "Other's"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "catId": 1,
+      "title": "SAMSUNG UE50tu200XXUC 50\" Smart 4k ultra No HDR LED TV \" ",
+      "productCode": "UE50tu200XXUC",
+      "image": "mobile-large.svg",
+      "price": "389",
+      "sku": "670881",
+      "description": "<strong>Glorius color</strong> \n\nDon\\'t Settle for anything less than <em>crystal</em> clear coloured ",
+      "spec": {
+        "dimensions": "TV with stand: 718.6 x 1115.8 x 250.2 mm (H x W x D) - TV: 643.7 x 1115.8 x 59",
+        "capacity": "300mm"
+      },
+      "features": [
+        "crystal display for long lasting color nd sharp contrast",
+        "crystal processor 4k fot the"
+      ],
+      "stock": 5
+    },
+    {
+      "id": 2,
+      "catId": 2,
+      "title": "NOKIA 5501 Smart Phone ",
+      "productCode": "SS0012996",
+      "image": "phone-1.svg",
+      "price": "400",
+      "sku": "43574",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Iusto voluptatem commodi a quaerat dolorum ullam magni minus recusandae explicabo corporis odit perferendis aliquam ratione repellat nemofacilis dicta qui! , impedit dolores soluta tempora natus adipisci distinctio amet fugiat aperiam inventore voluptas nisi minima est aut",
+      "spec": {
+        "dimensions": "Mobile 468.6 x 5.7.8 "
+      },
+      "features": [
+        "Tempered Glass",
+        "Fast cHariging point processor 4k fot the",
+        "16 RAM"
+      ],
+      "stock": 15
+    },
+    {
+      "id": 3,
+      "catId": 3,
+      "title": "Oppo 5501 Smart Phone ",
+      "productCode": "SS0012996",
+      "image": "phone-2.svg",
+      "price": "400",
+      "sku": "43574",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Iusto voluptatem commodi a quaerat dolorum ullam magni minus recusandae explicabo corporis odit perferendis aliquam ratione repellat nemofacilis dicta qui! , impedit dolores soluta tempora natus adipisci distinctio amet fugiat aperiam inventore voluptas nisi minima est aut",
+      "spec": {
+        "dimensions": "Mobile 468.6 x 5.7.8 "
+      },
+      "features": [
+        "Tempered Glass",
+        "Fast cHariging point processor 4k fot the",
+        "16 RAM"
+      ],
+      "stock": 15
+    },
+    {
+      "id": 4,
+      "catId": 3,
+      "title": "Xiamoi 5501 Smart Phone ",
+      "productCode": "SS0012996",
+      "image": "phone-3.svg",
+      "price": "400",
+      "sku": "43574",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Iusto voluptatem commodi a quaerat dolorum ullam magni minus recusandae explicabo corporis odit perferendis aliquam ratione repellat nemofacilis dicta qui! , impedit dolores soluta tempora natus adipisci distinctio amet fugiat aperiam inventore voluptas nisi minima est aut",
+      "spec": {
+        "dimensions": "Mobile 468.6 x 5.7.8 "
+      },
+      "features": [
+        "Tempered Glass",
+        "Fast cHariging point processor 4k fot the",
+        "16 RAM"
+      ],
+      "stock": 15
+    },
+    {
+      "id": 5,
+      "catId": 2,
+      "title": "NOKIA 5501 Smart Phone ",
+      "productCode": "SS0012996",
+      "image": "phone-4.svg",
+      "price": "400",
+      "sku": "43574",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Iusto voluptatem commodi a quaerat dolorum ullam magni minus recusandae explicabo corporis odit perferendis aliquam ratione repellat nemofacilis dicta qui! , impedit dolores soluta tempora natus adipisci distinctio amet fugiat aperiam inventore voluptas nisi minima est aut",
+      "spec": {
+        "dimensions": "Mobile 468.6 x 5.7.8 "
+      },
+      "features": [
+        "Tempered Glass",
+        "Fast cHariging point processor 4k fot the",
+        "16 RAM"
+      ],
+      "stock": 15
+    },
+    {
+      "id": 6,
+      "catId": 2,
+      "title": "NOKIA 5501 Smart Phone ",
+      "productCode": "SS0012996",
+      "image": "phone-1.svg",
+      "price": "400",
+      "sku": "43574",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Iusto voluptatem commodi a quaerat dolorum ullam magni minus recusandae explicabo corporis odit perferendis aliquam ratione repellat nemofacilis dicta qui! , impedit dolores soluta tempora natus adipisci distinctio amet fugiat aperiam inventore voluptas nisi minima est aut",
+      "spec": {
+        "dimensions": "Mobile 468.6 x 5.7.8 "
+      },
+      "features": [
+        "Tempered Glass",
+        "Fast cHariging point processor 4k fot the",
+        "16 RAM"
+      ],
+      "stock": 15
+    }
+  ]
+}

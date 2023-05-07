@@ -1,38 +1,201 @@
-.App {
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  color: darkslategray;
+  text-decoration: none;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style the header */
+header {
+  background-color: #666;
+  padding: 30px;
   text-align: center;
+  font-size: 35px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 1fr 0.1fr;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#headerHomeIcon {
+  justify-self: start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#headerTitle {
+  justify-self: center;
+}
+
+#headerCartIcon {
+  justify-self: end;
+}
+
+#search {
+  display: flex;
+}
+
+#search input {
+  margin-left: 10px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+/* container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* style the navigation menu */
+nav {
+  -webkit-flex: 0.1;
+  -ms-flex: 0.1;
+  flex: 0.1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* style the list inside  the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+nav ul li {
+  padding-bottom: 5px;
+}
+
+nav ul li:hover {
+  color: blue;
+}
+
+main {
+  flex: 0.9;
+  padding-top: 20px;
+}
+
+/* style the content */
+article {
+  /* -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    background: #f1f1f1;
+    padding: 10px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.25fr 1fr 0, 25fr;
+  column-gap: 20px;
+}
+
+/* style the footer */
+footer {
+  background: #777;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.category_product_title {
+  grid-column: 1 / span 3;
+  color: darkslategray;
+  font-weight: bold;
+  font-style: 1.5em;
+  padding-left: 10px;
+}
+
+.category_product_image_container {
+  padding-top: 10px;
+  width: 60%;
+}
+
+.category_product_image_container img {
+  width: 100%;
+  height: 100%;
+}
+
+.category_product_info_header {
+  display: flex;
+}
+
+.category_product_info_finance {
+}
+.category_product_info_finance_price {
+  color: darkslategray;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.category_product_info_dimensions,
+.category_product_info_capacity {
+  display: flex;
+  flex-direction: column;
+}
+
+.category_product_info_dimensions h3,
+.category_product_info_capacity h3,
+.category_product_info_features h3 {
+  color: darkslategray;
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.category_product_info_features li {
+  padding-top: 5px;
+}
+
+.category_product_info_stock {
+  padding-left: 10px;
+  margin-top: 20px;
+  padding-top: 10px;
+  background: lightgray;
+  height: 20%;
+  width: 30%;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.category_product_info_stock label {
+  padding-bottom: 5px;
+}
+
+.category_product_action {
+  display: flex;
+  flex-direction: column;
+}
+
+.category_product_action button {
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: lightgray;
+  border: 1px solid slategray;
+  font-weight: bold;
+}
+
+.category_product_action button:last-child {
+  background-color: darkgray;
+}
+
+/* responsive layout - makes the menu and content (inside the section) sit on the */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: columns;
+    flex-direction: column;
   }
 }
